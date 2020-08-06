@@ -10,7 +10,7 @@
     
   <img alt="Project Status: complete" src="https://img.shields.io/badge/project%20status-in progress-blue">
 
-  <a href="https://ullyolima.github.io/launchbase-portfolio/index.html" >
+  <a href="https://ullyolima.github.io/clone-site-rocketseat/" >
     <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fullyolima.github.io%2Flaunchbase-portfolio%2Findex.html">
   </a>
   
@@ -24,7 +24,7 @@
 - Nessa primeira fase construí o front-end do site.
 
 ### Deploy
-[Clique Aqui](https://ullyolima.github.io/clone-site-rocketseat/index.html) para visualizar o resultado.
+[Clique Aqui](https://ullyolima.github.io/clone-site-rocketseat/) para visualizar o resultado.
 
 ### Desafios propostos
 
