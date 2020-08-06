@@ -15,7 +15,7 @@
   </a>
   
   <a href="./LICENSE" >
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+    <img alt="License" src="https://img.shields.io/github/license/ullyolima/clone-site-rocketseat">
   </a>
 
 </p>
