@@ -30,7 +30,7 @@
 
 - [x] [Desafio 1: Primeiro HTML](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
 - [x] [Desafio 2: Página de descrição](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
-- [] [Desafio 3: Página de cursos e iframe](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
+- [ ] [Desafio 3: Página de cursos e iframe](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
 
 ### Tecnologias utilizadas
 
