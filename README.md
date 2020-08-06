@@ -11,7 +11,7 @@
   <img alt="Project Status: complete" src="https://img.shields.io/badge/project%20status-in progress-blue">
 
   <a href="https://ullyolima.github.io/clone-site-rocketseat/" >
-    <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fullyolima.github.io%2Flaunchbase-portfolio%2Findex.html">
+    <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fullyolima.github.io%2Fclone-site-rocketseat%2F">
   </a>
   
   <a href="./LICENSE" >
