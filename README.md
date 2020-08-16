@@ -23,6 +23,8 @@
 - Clone do site da Rocketseat, desenvolvido a partir dos desafios propostos durante o LaunchBase.
 - Nessa primeira fase construí o front-end do site.
 
+OBS: Esse clone foi feito a partir do layout antigo do site da RocketSeat.
+
 ### Deploy
 [Clique Aqui](https://ullyolima.github.io/clone-site-rocketseat/) para visualizar o resultado.
 
