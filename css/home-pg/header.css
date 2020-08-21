@@ -1,0 +1,208 @@
+header {
+    background-color: var(--rocketseat-main-color);
+}
+
+.header-content {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1070px;
+    padding: 20px;
+}
+
+.header-content a {
+    color: var(--text-color-whitesmoke);
+    padding-right: 30px;
+}
+
+/*======================*\
+    #NAVBAR
+\*======================*/
+
+.header-content__navbar {
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-content__navbar .logo {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    margin-right: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+/*======================*\
+    #SOCIAL-MEDIA-LINKS
+\*======================*/
+
+.header-content__links {
+    align-items: center;
+}
+
+.links__social-media a {
+    height: 18px;
+}
+
+.links__social-media a img {
+    height: 100%;
+    width: auto;
+}
+
+/*======================*\
+    #BTN-LOGIN
+\*======================*/
+
+.links__login {
+    background-color: var(--text-color-white);
+    border-radius: 5px;
+    line-height: 38px;
+    padding: 0 30px;
+    margin-left: 60px;
+}
+
+.links__login a {
+    color: var(--rocketseat-main-color);
+    padding: 0;
+}
+
+.login {
+    display: block;
+    visibility: visible;
+}
+
+/*======================*\
+    #RESPONSIVE-MENU
+\*======================*/
+
+.menu-lg {
+    display: flex;
+    visibility: visible;
+}
+
+.menu-mobile {
+    display: none;
+    visibility: hidden;
+}
+
+/*======================*\
+    #MODAL-OVERLAY
+\*======================*/
+
+.modal-overlay.is-hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/*======================*\
+    #MEDIA-QUERY
+\*======================*/
+
+@media (max-width: 1000px) {
+
+    .header-content {
+        max-width: 600px;
+    }
+
+    /*---------- RESPONSIVE MENU ----------*/
+
+    .menu-lg {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-mobile {
+        display: block;
+        visibility: visible;
+
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 35px;
+    }
+
+    /*---------- MODAL OVERLAY ----------*/
+
+    .modal-overlay {
+        display: block;
+        visibility: visible;
+        
+        background-color: rgba(113, 89, 193, 0.95);
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+    }
+
+    .modal__close-icon {
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .modal__close-icon i {
+        font-size: 40px;
+    }
+
+    .modal__content {
+        position: absolute;
+        top: 20vh;
+        right: 0;
+        left: 0;
+        bottom: 20vh;
+        text-align: center;
+    }
+
+    .modal__content ul a {
+        color: white;
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .login-mobile {
+        font-size: 26px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px 0px;
+        width: 130px;
+    }
+}
+
+@media (max-width: 640px) {
+    .login {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 360px) {
+    .header-content__navbar .logo img {
+        height: auto;
+        width: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-content a {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    .header-content a {
+        padding-right: 15px;
+    }
+
+    .header-content__navbar .logo {
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+
+    .menu-mobile {
+        margin-right: 20px;
+    }
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/home-pg/all-home-pg.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Rocketseat</title>
 </head>
 
@@ -17,9 +19,12 @@
                     <img src="./img/logo-rocketseat.svg"
                         alt="Logo da Rocketseat: Assento com um propulsor de foguete embaixo">
                 </a>
-                <ul class="flex">
+                <ul class="menu-lg">
                     <li>
                         <a href="/index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./bootcamp.html">Bootcamp</a>
                     </li>
                     <li>
                         <a href="https://discordapp.com/invite/gCRAFhc" target="_blank"
@@ -32,6 +37,12 @@
                         <a href="tel:+5547992078767">Telefone</a>
                     </li>
                 </ul>
+
+                <div class="menu-mobile">
+                    <div id="menu">
+                        Menu
+                    </div>
+
             </nav>
             <div class="header-content__links flex">
                 <div class="links__social-media flex">
@@ -48,7 +59,7 @@
                         <img src="./img/youtube.svg" alt="Canal do Youtube da Rocketseat">
                     </a>
                 </div>
-                <div class="links__login">
+                <div class="links__login login">
                     <a href="https://app.rocketseat.com.br/" target="_blank" rel="noopener noreferrer">Login</a>
                 </div>
             </div>
@@ -67,7 +78,7 @@
                 alt="Três pessoas pequenas sentadas no teclado de um notebook; todas elas estão com um notebook no colo.">
         </div>
     </section>
-
+    
     <section class="sections section-two flex">
         <div class="sections__inside-section flex">
             <img src="./img/trofeu-home.svg" alt="Trófeu dourado com o logo da Rocketseat no meio">
@@ -113,7 +124,7 @@
             <img src="./img/comunidade-home.svg" alt="Logo do Discord com balões de conversa ao redor.">
         </div>
     </section>
-
+    
     <section class="sections section-five flex">
         <div class="sections__inside-section">
             <h2>Parceiros</h2>
@@ -121,14 +132,14 @@
             <div>
                 <a href="https://bossabox.com/" target="_blank" rel="noopener noreferrer">
                     <img src="./img/bossabox.png" alt="Bossabox">
-                    <span>
+                    <span class="section-five-mobile">
                         Website
                         <img src="./img/arrow-parceiros.svg" alt="Seta para direita">
                     </span>
                 </a>
                 <a href="https://impulso.network/" target="_blank" rel="noopener noreferrer">
                     <img src="./img/impulso.png" alt="Impulso">
-                    <span>
+                    <span class="section-five-mobile">
                         Website
                         <img src="./img/arrow-parceiros.svg" alt="Seta para direita">
                     </span>
@@ -136,27 +147,28 @@
             </div>
         </div>
     </section>
+    
+    <section class="footer__inside-content flex">
+        <section>
+            <img class="footer-mobile techs-mobile" src="./img/techs-1.svg" alt="Logo de três tecnologias: Redux, GraphQL e JavaScript.">
+            <div>
+                <img class="footer-mobile yoda" src="./img/yoda.svg" alt="Mestre Yoda">
+                <form>
+                    <strong>Receba conteúdos exclusivos</strong>
+                    <p>Receber spam, você não irá!</p>
+                    <div>
+                        <input class="input" type="text" placeholder="Digite seu melhor email" value>
+                        <button class="button" type="submit">
+                            <img class="enviar" src="./img/send.svg" alt="Enviar">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <img class="footer-mobile techs-mobile" src="./img/techs-2.svg" alt="Logo de três tecnologias: NodeJS, React e Git.">
+        </section>
+    </section>
 
     <footer>
-        <section class="footer__inside-content flex">
-            <section>
-                <img src="./img/techs-1.svg" alt="Logo de três tecnologias: Redux, GraphQL e JavaScript.">
-                <div>
-                    <img src="./img/yoda.svg" alt="Mestre Yoda">
-                    <form>
-                        <strong>Receba conteúdos exclusivos</strong>
-                        <p>Receber spam, você não irá!</p>
-                        <div>
-                            <input class="input" type="text" placeholder="Digite seu melhor email" value>
-                            <button class="button" type="submit">
-                                <img class="enviar" src="./img/send.svg" alt="Enviar">
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <img src="./img/techs-2.svg" alt="Logo de três tecnologias: NodeJS, React e Git.">
-            </section>
-        </section>
         <div class="footer-info">
             <strong>
                 Reprodução do site da <a href="https://rocketseat.com.br/" target="_blank" rel="noopener noreferrer">Rocketseat</a> feito por <a href="https://github.com/ullyolima">Ully Lima</a>.
@@ -164,6 +176,38 @@
         </div>
     </footer>
 
+    <!-- Modal Overlay -->
+
+    <div class="modal-overlay is-hidden">
+        <div class="modal">
+            <div class="modal__close-icon">
+                <i class="material-icons">close</i>
+            </div>
+            <div class="modal__content">
+                <ul>
+                    <li>
+                        <a href="./bootcamp.html">Bootcamps</a>
+                    </li>
+                    <li>
+                        <a href="https://discordapp.com/invite/gCRAFhc" target="_blank"
+                            rel="noopener noreferrer">Comunidade</a>
+                    </li>
+                    <li>
+                        <a href="mailto:oi@rocketseat.com.br">Email</a>
+                    </li>
+                    <li>
+                        <a href="tel:+5547992078767">Telefone</a>
+                    </li>
+                </ul>
+                <div class="links__login login-mobile">
+                    <a href="https://app.rocketseat.com.br/" target="_blank" rel="noopener noreferrer">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

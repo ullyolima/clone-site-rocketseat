@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root {
+    --rocketseat-main-color: rgb(113, 89, 193);
+    --title-color-darkgrey: rgb(75, 75, 75);
+    --text-color-white: rgb(255, 255, 255);
+    --text-color-whitesmoke: whitesmoke;
+    --text-color-lightpurple: rgb(154, 142, 191);
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
