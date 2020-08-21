@@ -129,7 +129,7 @@
         #MEDIA-QUERY
 \*======================*/
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
 
     .sections {
         padding: 40px 0px;
@@ -191,7 +191,7 @@
 
 }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
 
     .sections__inside-section div {
         width: calc(70% - 10px);
@@ -218,7 +218,7 @@
 
 }
 
-@media (min-width: 840px)  and (max-width: 1024px)  {
+@media screen and (min-width: 840px)  and (max-width: 1024px)  {
 
     .sections__inside-section {
         padding: 0px 50px;
@@ -230,7 +230,7 @@
     }
 }
 
-@media (min-width: 640px) and (max-width: 840px) {
+@media screen and (min-width: 640px) and (max-width: 840px) {
     .sections__inside-section div a {
         padding: 5px 30px;
         width: 70%;
@@ -239,13 +239,13 @@
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .sections__inside-section div a {
         padding: 5px 10px;
     }
 }
 
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
 
     .sections__inside-section div {
         width: calc(90% - 10px);

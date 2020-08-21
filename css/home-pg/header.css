@@ -100,7 +100,7 @@ header {
     #MEDIA-QUERY
 \*======================*/
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     .header-content {
         max-width: 600px;
@@ -179,20 +179,20 @@ header {
     }
 }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
     .header-content__navbar .logo img {
         height: auto;
         width: 25px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .header-content a {
         padding-right: 20px;
     }
 }
 
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
     .header-content a {
         padding-right: 15px;
     }

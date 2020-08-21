@@ -1,0 +1,132 @@
+
+body {
+    background-color: rgb(18, 18, 20);
+}
+
+/*=======================*\
+    #SECTION
+\*=======================*/
+
+.section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px 60px 30px 60px;
+}
+
+.section__content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section__content div {
+    background-color: rgb(32, 32, 36);
+    border: 2px solid rgb(18, 18, 20);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 64px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
+
+.section__content div:hover {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.section__content .starter:hover {
+    border-color: var(--rocketseat-main-color);
+}
+
+.section__content .launchbase:hover {
+    border-color: rgb(253, 149, 31);
+}
+
+.section__content .gostack:hover {
+    border-color: rgb(4, 211, 97);
+}  
+
+.section__content div a {
+    align-items: center;
+    color: rgb(135, 134, 139);        
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 400px;
+    justify-content: center;
+}
+
+.section__content div a .starter-strong {
+    color: var(--rocketseat-main-color);
+    font-weight: 600;
+}
+
+.section__content div a .launchbase-strong {
+    color: rgb(253, 149, 31);
+    font-weight: 600;
+}
+
+.section__content div a .gostack-strong {
+    color: rgb(4, 211, 97);
+    font-weight: 600;
+}
+
+/*=======================*\
+    #MEDIA-QUERY
+\*=======================*/
+
+@media screen and (max-width: 1024px) {
+
+    .section {
+        padding: 100px 30px 30px 30px;
+    }
+
+    .section__content {
+        grid-template-columns: 1fr;
+    }
+
+    .section__content div {
+        padding: 30px;
+    }
+
+    .section__content div a {
+        height: auto;
+    }
+
+    .section__content div .launchbase img {
+        height: auto;
+        width: 200px;
+    }   
+
+    .section__content div .launchbase p {
+        margin-top: 0px;
+    }   
+}
+
+@media screen and (min-width:600px) and (max-width: 1024px) {
+    .section__content div {
+        width: 70vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    
+    .section {
+        padding: 175px 30px 30px 30px;
+    }
+
+    .section__content div {
+        width: 80vw;
+        height: auto;
+    }
+
+    .section__content .launchbase img {
+        height: auto;
+        width: 150px;
+    }
+}
