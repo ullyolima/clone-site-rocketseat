@@ -50,6 +50,14 @@
     padding: 0;
 }
 
+.hover-effect {
+    transition: color 100ms;
+}
+
+.hover-effect:hover {
+    color: var(--rocketseat-main-color);
+}
+
 /*======================*\
     #MEDIA-QUERY
 \*======================*/
